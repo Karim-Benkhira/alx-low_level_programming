@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
- * This is a simple C program that demonstrates the use of the puts function.
- * It prints a message to the console.
+/**
+ * main - Entry point
+ * Description : A C program that prints with put function
+ * return : Always 0 (Success)
  */
 int main(void)
 {
