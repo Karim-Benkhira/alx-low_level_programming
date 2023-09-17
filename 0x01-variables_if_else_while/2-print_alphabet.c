@@ -13,7 +13,6 @@ char alpha = 'a';
 while (alpha <= 'z')
 {
 putchar (alpha);
-putchar('\n');
 alpha++;
 }
 return (0);
