@@ -1,19 +1,5 @@
-#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-
-/**
- * ft_putchar - writes a character to stdout
- * @c: The character to write.
- *
- * Description: This function writes a single character to the standard output.
- *
- * Return: On success, the character written. On error, EOF.
- */
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 /**
  * main - Entry point
@@ -28,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		ft_putchar('\n');
+		printf("\n");
 		return (0);
 	}
 
